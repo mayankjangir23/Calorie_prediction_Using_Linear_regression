@@ -1,0 +1,21 @@
+Requirements
+============================================
+This project requires the following software, libraries, and files:
+
+1. Python Version
+============================================
+Python 3.7 or higher is recommended.
+
+2. Python Libraries
+===========================================
+pip install streamlit pandas scikit-learn
+
+--> streamlit: For building the interactive web app UI.
+--> pandas: For data manipulation and CSV file handling.
+--> scikit-learn: For the Linear Regression model and label encoding.
+
+3. Datasets
+============================================
+Place the following CSV files in the root directory of the project:
+exercise.csv — Contains user physiological and workout data including user ID, gender, age, height, weight, duration, heart rate, and body temperature.
+calories.csv — Contains calories burned information matched by user ID.
